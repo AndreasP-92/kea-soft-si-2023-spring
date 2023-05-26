@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "13-github-webhooks"
+version = "0.1.0"
+description = ""
+authors = ["AndreasB2B <99027014+AndreasB2B@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "13"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
